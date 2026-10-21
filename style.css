@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 189, 46);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 15px;
+    box-shadow: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+button:active{
+    transform: trans;
+    
+}
